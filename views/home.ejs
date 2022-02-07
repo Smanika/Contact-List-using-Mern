@@ -1,0 +1,30 @@
+
+<html lang="en">
+<head>
+     <title>
+        <%= titleName %>
+    </title>
+    <link rel="stylesheet" href="/css/home.css">
+
+    <!-- Font Awesome Css  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
+
+   
+    
+</head>
+<body>
+    <h1 class="h2">
+   
+        <i class="fas fa-address-book"></i>&nbsp;Contact List
+  
+    </h1>
+    
+         <form action="/create-contact" method="POST">
+        <input type="text" name="name" placeholder="Name" required>
+        <input type="email" name="email" placeholder="Email Id" required>
+        <input type="number" name="phone" placeholder="Phone No." required>
+        <button type="submit">Add Contacts</button>
+       </form>
+</body>
+
+</html>
