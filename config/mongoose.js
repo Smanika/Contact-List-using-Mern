@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/movieDB');
+mongoose.connect('ur database url');
 
 const db= mongoose.connection
 db.on('error',console.error.bind(console,'error in database')) // errors
